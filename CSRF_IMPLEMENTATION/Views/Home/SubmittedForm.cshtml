@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Form Submitted";
+}
+
+<h2>Form Submitted</h2>
+
+<p>Thank you for submitting the form!</p>
+
+<div>
+    <h3>Submitted Data:</h3>
+    <ul>
+        <li><strong>Name:</strong> @ViewBag.Name</li>
+        <li><strong>Email:</strong> @ViewBag.Email</li>
+    </ul>
+</div>
+
+<p><a href="@Url.Action("Index", "Home")">Go Back</a></p>

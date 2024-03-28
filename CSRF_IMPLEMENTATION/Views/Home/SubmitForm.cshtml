@@ -1,0 +1,16 @@
+﻿@using (Html.BeginForm("SubmitForm", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="form-control" />
+    </div>
+    <br />
+    <div>
+    <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+}
